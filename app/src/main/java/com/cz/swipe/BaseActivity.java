@@ -48,6 +48,10 @@ public class BaseActivity extends AppCompatActivity {
         return mBackLayout;
     }
 
+    /**
+     *  设置滑动开关
+     * @param enabled
+     */
     public void setSwipeEnabled(boolean enabled){
         if(mBackLayout != null)
             mBackLayout.setEnabled(enabled);
