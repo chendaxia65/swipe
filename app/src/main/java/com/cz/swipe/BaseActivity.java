@@ -13,7 +13,7 @@ import android.widget.FrameLayout;
  * @version V1.0 <描述当前版本功能>
  * @FileName: com.cz.swipe.BaseActivity.java
  * @author: Czhen
- * @date: 2017-07-03 14:34
+ * @date: 2017-06-30 14:34
  */
 public class BaseActivity extends AppCompatActivity {
 
