@@ -48,4 +48,9 @@ public class BaseActivity extends AppCompatActivity {
         return mBackLayout;
     }
 
+    public void setSwipeEnabled(boolean enabled){
+        if(mBackLayout != null)
+            mBackLayout.setEnabled(enabled);
+    }
+
 }
